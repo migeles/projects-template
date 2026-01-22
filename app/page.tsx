@@ -1,14 +1,10 @@
 import Image from "next/image";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-    <div className="w-full h-screen  bg-zinc-50 font-sans dark:bg-black">
-     <div className="w-full h-screen flex justify-center items-center">
-      <h1 className="text-white text-7xl">Hello</h1>
-     </div>
-     <div className="w-full h-screen flex justify-center items-center">
-      <h1 className="text-white text-7xl">My future self</h1>
-     </div>
+    <div className="w-full h-screen  bg-zinc-50 font-sans dark:bg-black main-font">
+     <Hero/>
     </div>
   );
 }
