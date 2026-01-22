@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'onest';
+  src: url('../Assets/Fonts/Onest-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main-font {
+    font-family: 'onest'
+}
