@@ -1,2 +1,9 @@
 @import "tailwindcss";
-@import 'lenis/dist/lenis.css'
+@import 'lenis/dist/lenis.css';
+
+@theme {
+    --color-main: #F24E1E;
+    --color-background: #FF7262;
+    --color-title: #FF7262;
+    --color-secondary: #0ACF83;
+}
